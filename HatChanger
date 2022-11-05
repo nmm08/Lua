@@ -22,7 +22,7 @@ a:Button(
     "Credits",
     function()
         local _ = game:GetService("StarterGui")
-        _:SetCore("SendNotification", {Title = "SecretSupply", Text = "nіck#0050", Duration = 10})
+        _:SetCore("SendNotification", {Title = "Discord", Text = "nickk#6702", Duration = 10})
     end
 )
 h:Button(
