@@ -1,0 +1,25 @@
+getgenv().Settings = {
+    ["HostID"]  = 3170938209,
+    ["FPS"]     = 2,
+    ["Prefix"]  = "/",
+    ["AdvertMSG"]    = "gg/FZuurMTfHT"
+};
+getgenv().Alts = {
+    3269692803, -- ALT 1
+    246371600, -- ALT 2
+    245565063, -- ALT 3
+    235464695, -- ALT 4
+    245351763, -- ALT 5
+    4025852308, -- ALT 6
+    3987219846, -- ALT 7
+    3987229308, -- ALT 8
+    3995848477, -- ALT 9
+    3995863061, -- ALT 10
+    3995880418, -- ALT 11
+    3995888101, -- ALT 12
+    4062600867, -- ALT 13
+    1999790949, -- ALT 14
+    4062609577, -- ALT 15
+    4062612825, -- ALT 16
+};
+loadstring(game:HttpGet("https://iku.wtf/scripts/alt_control.lua"))()
