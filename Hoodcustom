@@ -33,9 +33,9 @@ local SelectedDisableKey = getgenv().DisableKey
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "Cam Lock Enabled | .gg/thusky",
+        Title = "by nick",
         Text = tx,
-        Duration = 5
+        Duration = 3
     })
 end
 
@@ -122,12 +122,10 @@ Mouse.KeyDown:Connect(function(k)
             else
                 if Victim ~= nil then
                     Victim = nil
-
-                    Notify("Unlocked!")
+		    
                 end
             end
         else
-            Notify("Aimlock is not enabled!")
         end
     end
     if k == SelectedDisableKey then
