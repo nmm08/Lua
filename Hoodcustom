@@ -33,7 +33,7 @@ local SelectedDisableKey = getgenv().DisableKey
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "by nick",
+        Title = "made by skid",
         Text = tx,
         Duration = 3
     })
@@ -42,7 +42,6 @@ end
 --// Check if aimlock is loaded
 
 if getgenv().Loaded == true then
-    Notify("Aimlock is already loaded!")
     return
 end
 
@@ -118,11 +117,9 @@ Mouse.KeyDown:Connect(function(k)
             if Locked then
                 Victim = getClosest()
 
-                Notify("Locked onto: "..tostring(Victim.Character.Humanoid.DisplayName))
             else
                 if Victim ~= nil then
                     Victim = nil
-		    
                 end
             end
         else
