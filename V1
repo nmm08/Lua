@@ -1,27 +1,26 @@
- -- Generated with Iku Bot v1.2.0 --
-getgenv().Settings = { 
-    host = 1,
-    fps = 2,
+getgenv().Settings = {
+    host = 3170938209,
+    fps = 3,
     prefix = '/',
-    advertmsg = '^',
- }
+    advertmsg = 'dicke',
+}
 getgenv().Alts = {
-    Alt1 = 123456789,
-    Alt2 = 123456789,
-    Alt3 = 123456789,
-    Alt4 = 123456789,
-    Alt5 = 123456789,
-    Alt6 = 123456789,
-    Alt7 = 123456789,
-    Alt8 = 123456789,
-    Alt9 = 123456789,
-    Alt10 = 123456789,
-    Alt11 = 123456789,
-    Alt12 = 123456789,
-    Alt13 = 123456789,
-    Alt14 = 123456789,
-    Alt15 = 123456789,
-    Alt16 = 123456789,
-    CrasherIDs = { 123456789 } -- CRASHER IDS ARE NOT PROVIDED AS SETUP, YOU WILL HAVE TO MANUALLY ADD THESE --
- }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/6mf/lua-scripts/main/%F0%9F%A4%9D%F0%9F%98%81.lua'))()
+    Alt1 = 3269692803,
+    Alt2 = 246371600,
+    Alt3 = 245565063,
+    Alt4 = 235464695,
+    Alt5 = 245351763,
+    Alt6 = 4025852308,
+    Alt7 = 3987219846,
+    Alt8 = 3987229308,
+    Alt9 = 3987229308,
+    Alt10 = 3995863061,
+    Alt11 = 3995880418,
+    Alt12 = 3995888101,
+    Alt13 = 4062600867,
+    Alt14 = 1999790949,
+    Alt15 = 4062609577,
+    Alt16 = 4062612825,
+    CrasherIDs = { 123456789 } -- This is absolutely useless, don't use it.
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/6mf/lua-scripts/main/%F0%9F%A4%9D%F0%9F%98%81.lua"))()
